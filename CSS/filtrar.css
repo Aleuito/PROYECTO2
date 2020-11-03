@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;   
+    box-sizing: border-box;
+}
+
+#all{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header{
+    height: 150px;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+nav{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px; 
+    
+}
+
+h1{
+    font-family: 'Staatliches', cursive;
+}
+
+
+nav h1{
+    font-size: 80px;
+}
+
+}
+
+#tres {
+    height: 80px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#atras{
+    width: 100px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#atras a{
+    margin: o auto;
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer{
+    height: 150px;
+    padding-top: 40px;
+    text-align: center;
+}

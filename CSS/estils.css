@@ -1,0 +1,115 @@
+*{
+    /*Totes les etiquetes*/
+    margin: 0;
+    padding: 0;
+    font-family: Arial;   
+    box-sizing: border-box; /*fa que no haguem de recalcular els paddins(marges) de les etiquetes imatge etc*/
+}
+
+#all{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header{
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+header h1{
+    padding-top: 20px;
+    font-family: candara;
+    text-decoration: overline;
+    text-decoration: underline;
+}
+
+.slider{
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+}
+
+@keyframes cambio{
+    0% {margin-left: 0; }
+    20% {margin-left: 0; }
+    
+    25% {margin-left: -100%; }
+    45% {margin-left: -100%; }
+    
+    50% {margin-left: -200%; }
+    70% {margin-left: -200%; }
+    
+    75% {margin-left: -300%; }
+    100% {margin-left: -300%; }
+}
+
+
+
+
+nav{
+    padding: 20px;
+    height: 100px;
+}
+
+.link {
+    float: left;
+    height: 75px;
+    width: 200px;
+    margin-left: 95px;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.link a{
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;   
+}
+
+.linked {
+    float: left;
+    height: 75px;
+    width: 200px;
+    margin-left: 95px;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.linked a{
+    display: block;
+    padding: 25px 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+footer{
+    height: 150px;
+    padding-top: 40px;
+    text-align: center;
+}

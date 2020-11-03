@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Entrada datos</title>
+    <link rel="stylesheet" href="CSS/estils_entrada.css">
+</head>
+
+<body>
+
+    <div id="all">
+        <header>
+           <h1>Entrada de datos</h1>
+        </header>
+        
+        <nav>
+           <div id="atras">
+               <a href="index.html">Volver</a>
+           </div>
+            <h1>¡StyleShoes!</h1>
+        </nav>
+        
+        <form action="entrada_dades.php" method="POST">
+         <div>
+         
+          <p class="tipo">
+          <label for="ID">ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="int" name="ID" placeholders="4" required>
+          </p><br><br>
+          
+          <p class="tipo">
+          <label for="marca">Marca:&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" name="marca" placeholders="Marca" required>
+          </p><br><br>
+          
+          <p class="tipo">
+          <label for="modelo">Modelo:&nbsp;&nbsp;</label><input type="text" name="modelo" placeholders="Modelo" required>
+          </p><br><br>
+          
+          <p class="tipo">
+          <label for="talla">Talla:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="int" name="talla" placeholders="42" required>
+          </p><br><br>
+          
+          <p class="tipo">
+          <label for="color">Color:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" name="color" placeholders="Color" required>
+          </p><br><br>
+          
+          <p class="tipo">
+          <label for="precio">Precio:&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="int" name="precio" placeholders="80" required>
+          </p> <br><br>
+          
+          <p class="tipo">
+            <input type="submit" name="btn1" value="Registrar">
+            <input type="reset" value="Restablecer">
+          </p>
+          </div>
+        </form>
+        <footer>
+            <p>Página en colaboración con:</p> 
+            <p>Nike, Adidas, Converse y Puma</p>
+            <p>Atención al cliente</p>
+            <p>Contáctanos por correo</p>
+            <p>Realización: Elian/Roger</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+

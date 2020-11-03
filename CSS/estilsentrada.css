@@ -1,0 +1,65 @@
+*{
+    /*Totes les etiquetes*/
+    margin: 0;
+    padding: 0;
+    font-family: Arial;   
+    box-sizing: border-box; /*fa que no haguem de recalcular els paddins(marges) de les etiquetes imatge etc*/
+}
+
+#all{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header{
+    height: 160px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+header h1{
+    padding-top: 20px;
+    font-family: candara;
+    text-decoration: overline;
+    text-decoration: underline;
+}
+
+#atras{
+    width: 100px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 100px;
+    margin-top: 10px;
+    }
+
+#atras a{
+    margin: o auto;
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.imatge{
+    margin: 0 auto;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px 100px;
+    margin-bottom: 10px;
+}
+
+footer{
+    height: 150px;
+    padding-top: 40px;
+    text-align: center;
+}
+
